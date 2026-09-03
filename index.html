@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Гравитационный шаттл</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="game-wrapper">
+    <div class="game-container">
+        <canvas id="gameCanvas" width="800" height="500"></canvas>
+
+        <div class="info-panel">
+            <div class="stats">
+                <div class="stat-item">
+                    <span>🎯 Очки</span>
+                    <span id="scoreDisplay">0</span>
+                </div>
+                <div class="stat-item">
+                    <span>⏱️ Жизни</span>
+                    <span id="livesDisplay">❤️❤️❤️</span>
+                </div>
+                <div class="stat-item">
+                    <span>💫 Уровень</span>
+                    <span id="levelDisplay">1</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn" id="restartBtn">
+                    <span class="btn-icon">⟳</span> Перезапуск
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
